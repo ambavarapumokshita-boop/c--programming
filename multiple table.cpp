@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int n,rev=0,d;
-	printf("enter any number");
-	scanf("%d",&n);
-	while(n>0)
-	{
-		d=n%10;
-		rev=rev*10+d;
-		n=n/10;
-	}
-	printf("reverse=%d",rev);
+	int i,tn,ts;
+	printf("enter table number");
+	scanf("%d",&tn);
+	printf("enter table size");
+	scanf("%d",&ts);
+	for(i=1;i<=ts;i++)
+		{
+		  printf("%d*%d=%d\n",i,tn,i*tn);
+		}
 	return 0;
 }
+
 
