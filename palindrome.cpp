@@ -5,6 +5,7 @@ int main()
 	printf("enter any number");
 	scanf("%d",&n);
 	temp=n;
+	while(n>0)
 	{
 		d=n%10;
 		rev=rev*10+d;
@@ -16,3 +17,4 @@ int main()
 	printf("it is not a palindrome");
 	return 0;
 }
+
