@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+printf("name::a.mokshita");
+printf("place::b.mattam");
+printf("father::a.v.subba reddy");
+printf("mother::hemalatha");
+return 0;
+}
