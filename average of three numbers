@@ -1,0 +1,11 @@
+#include<>stdio.h>
+int main()
+{
+int a,b,c,d,average;
+printf("enter a&b&c values");
+scanf("%d%d%d",&a,&b,&c);
+d=a+b+c;
+average=d/3;
+printf("average=%d",average);
+return 0;
+}
